@@ -1,0 +1,38 @@
+body {
+  background-image: url('./img/clouds-hd-wallpaper.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron .lead {
+  text-align: center;
+}
+
+#portfolio .card {
+  margin-top: 5%;
+  width: 45%;
+}
+
+#about-me {
+  margin-right: 5%;
+}
+
+.card-column {
+  margin-top: 5%;
+}
+
+#lostffound .card-image {
+  background-image: url('./img/lost&ffound.jpg');
+  background-size: cover;
+  height: 10rem;
+}
+
+#lostffound:hover {
+  visibility: visible;
+}
+
+#djinn .card-image {
+  background-image: url('./img/djinn.jpg');
+  background-size: cover;
+  height: 10rem;
+}
