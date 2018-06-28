@@ -8,6 +8,12 @@ body {
   text-align: center;
 }
 
+.jumbotron img {
+  max-height: 200px;
+  border-radius: 50%;
+  margin: 0px;
+}
+
 #portfolio .card {
   margin-top: 5%;
   width: 45%;
@@ -57,4 +63,13 @@ body {
 #lostffound .card-image:click, #djinn .card-image:click {
   border-radius: 0rem;
   transition: .25s;
+}
+
+#contact {
+  width: 100%;
+  margin: 7% 0%;
+}
+
+#email {
+  font-weight: bold;
 }
