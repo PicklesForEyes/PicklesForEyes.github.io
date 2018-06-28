@@ -13,27 +13,26 @@ body {
   width: 45%;
 }
 
-#about-me {
-  margin-right: 5%;
-}
-
 .card-column {
   margin-top: 5%;
 }
 
-#lostffound .card-image {
-  background-image: url('./img/lost&ffound.jpg');
-  background-size: cover;
-  height: 10rem;
+#lostffound, #djinn {
+  border-radius: 4rem;
 }
 
-#lostffound:hover {
-  visibility: visible;
+#lostffound .card-image {
+  background-image: url('./img/lost&ffound.jpg');
 }
 
 #djinn .card-image {
   background-image: url('./img/djinn.jpg');
+}
+
+#lostffound .card-image, #djinn .card-image {
+  background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 4rem;
   height: 10rem;
 }
 
@@ -43,4 +42,19 @@ body {
 
 #djinn-description {
   visibility: hidden;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #000;
+}
+
+#lostffound:click, #djinn:click {
+  border-radius: 0rem;
+  transition: all .25s ease-in;
+}
+
+#lostffound .card-image:click, #djinn .card-image:click {
+  border-radius: 0rem;
+  transition: .25s;
 }
