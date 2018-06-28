@@ -36,3 +36,11 @@ body {
   background-size: cover;
   height: 10rem;
 }
+
+#lostffound-description {
+  visibility: hidden;
+}
+
+#djinn-description {
+  visibility: hidden;
+}
